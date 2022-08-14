@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2148C0;
+    max-height: 100vh;
+}
+
+.container{
+    margin-top: 260px;
+    display: grid;
+    place-items: center;
+    font-family:"montserrat", sans-serif;
+    position: relative;
+}
+
+.link{
+    text-decoration: none;
+    line-height: 3;
+    color: white;
+    margin-left: 160px;
+}
+
+.input{
+    line-height: 3.8;
+    margin-top: 65px;
+    position: relative;
+}
+
+.button-container{
+    margin-top: 40px;
+}
+
+.images{
+    position: relative;
+}
+
+.arrow{
+    position: absolute;
+    top: 24px;
+    left: 54px;
+}
+
+.circle{
+    position: relative;
+    top: 16px;
+    left:-72px;
+}
+
+.first-circle{
+    left: -78px;
+}
+
+.second-circle{
+    left: -74px;
+}
+
+.username{
+    width: 300px;
+    height: 45px;
+    background-color: #244BC5;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.password{
+    width: 300px;
+    height: 45px;
+    background-color: #244BC5;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+::placeholder{
+    color: white;
+    font-weight: 1px;
+    padding-left: 40px;
+}
+
+.btn{
+    height: 45px;
+    width: 300px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2148C0;
+}
+
+.circle-2{
+    position: absolute;
+    left:20px ;
+    top:22px ;
+}
+
+.shoulder{
+    position: absolute;
+    top: 30px;
+    left: 16px;
+}
+
+.pad-lock{
+    position: absolute;
+    top: 86px;
+    left: 15px;
+}
+
+.square{
+    position: absolute;
+    top: 80px;
+    left: 18px;
+}
+
+.curved-image{
+    position: absolute;
+    top: 2px;
+    left: 58.6rem;
+    height: 1000px;
+    width: 1000px;
+}
+
+.border-circle{
+    border: 150px solid #264ECA;
+    border-radius: 100%;
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    top: -14rem;
+    left: -390px;
+
+}
